@@ -9,9 +9,11 @@
     --cor-dia-hora:rgba(69, 10, 67, 1);
 }
 
-body {  
-    background: linear-gradient(to bottom, var(--ciano)85%, var(--amarelo-escuro)45%, var(--cor-relogio)10%);       
-}
+body {
+    background: linear-gradient(to top, red 10%, purple 45%, blue 85%);
+    margin: 0;
+    height: 100vh;
+  }
 
 .botao {
     background: linear-gradient(to right, var(--amarelo-escuro), var(--parte-cabecalho));
