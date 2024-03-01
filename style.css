@@ -21,6 +21,7 @@ body {
 
 .botao:hover {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
+    text-emphasis-color: red;
 }
 
 .conteudo-principal {
@@ -41,4 +42,8 @@ body {
 
 .titulo-principal span {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
+}
+
+.botao {
+
 }
