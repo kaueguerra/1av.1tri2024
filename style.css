@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to top, red 10%, purple 45%, blue 85%);
+    background: linear-gradient(to top, rgb(86, 255, 137) 10%, rgb(241, 91, 241) 55%, rgb(174, 123, 255) 75%);
     margin: 0;
     height: 100vh;
   }
