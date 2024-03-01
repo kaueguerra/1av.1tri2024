@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to top, rgb(86, 255, 137) 10%, rgb(104, 31, 199) 55%, rgb(255, 184, 32) 75%);
+    background: linear-gradient(to top, var(--amarelo-escuro) 10%, rgb(104, 31, 199) 55%, var(--parte-cabecalho) 75%);
     margin: 0;
     height: 100vh;
   }
