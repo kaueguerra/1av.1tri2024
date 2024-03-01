@@ -21,7 +21,7 @@ body {
 
 .botao:hover {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
-    text-emphasis-color: red;
+    text-decoration: red;
 }
 
 .conteudo-principal {
