@@ -14,5 +14,5 @@ body {
 }
 
 .botao {
-    background: linear-gradient(to right, var(--amarelo-escuro), var(--parte-cabecalho);
+    background: linear-gradient(to right, var(--amarelo-escuro), var(--parte-cabecalho));
 }
