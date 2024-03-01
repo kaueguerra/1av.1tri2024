@@ -19,6 +19,10 @@ body {
     background: linear-gradient(to bottom, var(--amarelo-escuro), var(--ciano));
 }
 
+.botao:hover span{
+    background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
+}
+
 .conteudo-principal {
     display: flex;
     flex-direction: column;
