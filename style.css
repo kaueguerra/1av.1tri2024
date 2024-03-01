@@ -17,11 +17,13 @@ body {
 
 .botao {
     background: linear-gradient(to bottom, var(--amarelo-escuro), var(--ciano));
+    font-family: 'Chakra Peth', sans-serif;
+    color: red;
 }
 
 .botao:hover {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
-    background-image: linear-gradient(to bottom, var(--amarelo-escuro), var(--ciano));
+    
 }
 
 .conteudo-principal {
