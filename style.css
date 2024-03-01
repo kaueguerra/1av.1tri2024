@@ -19,3 +19,8 @@ body {
     background: linear-gradient(to right, var(--amarelo-escuro), var(--parte-cabecalho));
     align: center;
 }
+
+.conteudo-principal {
+    width: auto;
+    height: auto;
+}
