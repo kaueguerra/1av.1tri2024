@@ -16,8 +16,7 @@ body {
   }
 
 .botao {
-    background: linear-gradient(to right, var(--amarelo-escuro), var(--parte-cabecalho));
-    align: center;
+    background: linear-gradient(to top, var(--amarelo-escuro), var(--ciano));
 }
 
 .conteudo-principal {
