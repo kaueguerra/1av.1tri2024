@@ -8,3 +8,7 @@
     --cor-relogio:rgba(74, 6, 115, 1);
     --cor-dia-hora:rgba(69, 10, 67, 1);
 }
+
+body {
+    background: linear-gradient(105deg, rgba(85, 236, 200, 0.86), rgba(74, 6, 115, 1));
+}
