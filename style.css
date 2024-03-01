@@ -10,7 +10,7 @@
 }
 
 body {  
-    background: linear-gradient(to bottom, var(--ciano)85%, var(--amarelo-escuro) 45%, var(--cor-relogio) 10%);       
+    background: linear-gradient(to bottom, var(--ciano)85%, var(--amarelo-escuro)45%, var(--cor-relogio)10%);       
 }
 
 .botao {
