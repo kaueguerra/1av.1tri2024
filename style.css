@@ -24,8 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.oi {
-    background: #634D65;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
