@@ -23,4 +23,5 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
+    height: 20%;
 }
