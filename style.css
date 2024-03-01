@@ -16,7 +16,7 @@ body {
   }
 
 .botao {
-    background: linear-gradient(to top, var(--amarelo-escuro), var(--ciano));
+    background: linear-gradient(to bottom, var(--amarelo-escuro), var(--ciano));
 }
 
 .conteudo-principal {
