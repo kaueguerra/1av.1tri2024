@@ -56,9 +56,9 @@ body {
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-dia-hora);
-    border-left: 2px solid var(--cor-dia-hora);
-    border-right: 2px solid var(--cor-dia-hora);
+    border-bottom: 4px solid var(--ciano);
+    border-left: 2px solid var(--ciano);
+    border-right: 2px solid var(--ciano);
     border-top: none;
 }
 .botao:first-child{
