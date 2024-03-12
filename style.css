@@ -79,6 +79,8 @@ body {
 }
 .botao:hover {
     color: #fff;
+    transition:5s;
+        transition: opacity 100ms linear;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
@@ -88,7 +90,6 @@ body {
         0 0 92px #0fa,
         0 0 102px #0fa,
         0 0 151px #0fa;
-        transition:5s;
-        transition: opacity 100ms linear;
+        
   }
 
