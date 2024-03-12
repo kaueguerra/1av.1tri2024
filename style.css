@@ -48,7 +48,6 @@ body {
 
 .botao{
     font-family: 'chakra Peth', sans-serif;
-    background-color: var(--parte-cabecalho);
     color: var(--cor-de-fundo);
     display: flex;
     justify-content: center;
