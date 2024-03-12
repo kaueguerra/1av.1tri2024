@@ -77,7 +77,7 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-.botao:after {
+.botao:hover {
     color: #fff;
     text-shadow:
         0 0 7px #fff,
