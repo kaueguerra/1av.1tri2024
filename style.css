@@ -48,6 +48,30 @@ body {
 .titulo-principal span {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
 }
+.ativo{
+    background-color: var(--parte-cabecalho);
+    border-bottom: 4px solid var(--cor-relogio);
+}
+.abas-textos{
+    background-color: var(--cor-de-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.abas-conteudo-ativo{
+    display: block;
+}
+.abas-conteudo{
+    display: none;
+}
+.abas-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.abas-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--ciano);
+    text-transform: uppercase;
+}
 
 .botao{
     font-family: 'Chakra Petch', sans-serif;
