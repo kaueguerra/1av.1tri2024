@@ -25,7 +25,10 @@ body {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
     
 }
-
+.botao:onclick {
+    background: linear-gradient(to top, var(--ciano) 20%, var(--parte-cabecalho) 75%);
+    
+}
 .conteudo-principal {
     display: flex;
     flex-direction: column;
