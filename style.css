@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
 
 :root {
-    --cor-de-fundo:#634D65;
-    --amarelo-escuro:#C3B744;
-    --parte-cabecalho:rgba(118, 118, 118, 0.5);
-    --ciano:rgba(85, 236, 200, 0.86);
-    --cor-relogio:rgba(74, 6, 115, 1);
-    --cor-dia-hora:rgba(69, 10, 67, 1);
+    --cor-de-fundo:#608f08;
+    --amarelo-escuro:#e04141;
+    --parte-cabecalho:rgba(38, 0, 255, 0.5);
+    --ciano:rgba(92, 223, 136, 0.86);
+    --cor-relogio:rgb(234, 0, 255);
+    --cor-dia-hora:rgb(0, 255, 200);
 }
 
 body {
-    background: linear-gradient(to top, var(--ciano) 20%, var(--parte-cabecalho) 75%,rgb(104, 31, 199) 85%);
+    background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%,rgb(104, 31, 199) 85%);
     margin: 0;
     height: 100vh;
   }
@@ -25,10 +25,7 @@ body {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
     
 }
-.botao:onclick {
-    background: linear-gradient(to top, var(--ciano) 20%, var(--parte-cabecalho) 75%);
-    
-}
+
 .conteudo-principal {
     display: flex;
     flex-direction: column;
@@ -47,30 +44,6 @@ body {
 
 .titulo-principal span {
     background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
-}
-.ativo{
-    background-color: var(--parte-cabecalho);
-    border-bottom: 4px solid var(--cor-relogio);
-}
-.abas-textos{
-    background-color: var(--cor-de-fundo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
-}
-.abas-conteudo.ativo{
-    display: block;
-}
-.abas-conteudo{
-    display: none;
-}
-.abas-conteudo-titulo-principal{
-    font-size: 28px;
-    text-align: center;
-}
-.abas-conteudo-titulo-secundario{
-    text-align: center;
-    color: var(--ciano);
-    text-transform: uppercase;
 }
 
 .botao{
@@ -96,6 +69,33 @@ body {
     display: block;
     }
 
+    .ativo{
+         background-color: var(--botao-ativo);
+          border-bottom: 4px solid var(--verde);
+        }
+
+        .abas-textos{
+        background-color: var(--cor-de-fundo);
+        padding: 40px;
+        border-radius: 00 40px 40px;
+        }
+        .aba-conteudo.ativo{
+        display: block;
+        }
+        .aba-conteudo{
+        display: none;
+        }
+        .aba-conteudo-titulo-principal{
+        font-size: 28px;
+        text-align: center;
+        }
+        .aba-conteudo-titulo-secundario{
+        text-align: center;
+        color: var(--rosa);
+        text-transform: uppercase;
+        }
+
+
 @media screen and (min-width: 768px) {
     .botoes{
     display: flex;
@@ -116,7 +116,7 @@ body {
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
-        0 0 21px #ffffff,
+        0 0 21px #fff,
         0 0 42px #0fa,
         0 0 82px #0fa,
         0 0 92px #0fa,
@@ -124,4 +124,3 @@ body {
         0 0 151px #0fa;
         
   }
-
